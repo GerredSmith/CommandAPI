@@ -7,6 +7,6 @@ namespace CommandAPI.Controllers
     public class CommandsController : ControllerBase
     {
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get() => new string[] {"this", "is", "hard", "coded"};
+        public ActionResult<IEnumerable<string>> Get() => new string[] {"this", "is", "hard", "coded", "git"};
     }
 }
